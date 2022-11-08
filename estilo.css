@@ -1,12 +1,17 @@
 section{
-    background-color: aquamarine;
-    display:flex;
-    flex-direction: column;
-    margin:0.625em;
 }
 
-img{
+section>h2,section>h3,section>h4{
+    background-color: blue;
+    padding:2em;
+    color: white;
+    border-radius: 1em;;
+}
+
+img,video{
     width: 25%;
+    max-width: 45vh;
     height: auto;
+    margin:0.125em;
 }
 
