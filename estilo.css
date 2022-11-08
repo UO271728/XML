@@ -1,0 +1,12 @@
+section{
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: column;
+    margin:0.625em;
+}
+
+img{
+    width: 25%;
+    height: auto;
+}
+
