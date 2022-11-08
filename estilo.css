@@ -9,7 +9,7 @@ section>h2,section>h3,section>h4{
 /* Especifidad = 001*/
 h1{
     font-size: 2em;
-    background-color: coral;
+    background-color: #942700;
     color:white;
     padding: 3em;
     text-align: center;
