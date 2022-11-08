@@ -1,13 +1,21 @@
-section{
-}
-
+/* Especificidad = 002*/ 
 section>h2,section>h3,section>h4{
     background-color: blue;
     padding:2em;
     color: white;
-    border-radius: 1em;;
+    border-radius: 1em;
 }
 
+/* Especifidad = 001*/
+h1{
+    font-size: 2em;
+    background-color: coral;
+    color:white;
+    padding: 3em;
+    text-align: center;
+}
+
+/* Especificidad = 001*/ 
 img,video{
     width: 25%;
     max-width: 45vh;
